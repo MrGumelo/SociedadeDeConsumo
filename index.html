@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<style>
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 210px;
+        height: 30px;
+        background-color: #A9A9A9;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+
+
+        position: absolute;
+        z-index: 1;
+        top: 50px;
+        left: -20px;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+    p {
+        margin-top: 25px;
+        margin-left: 30px;
+        margin-right: 30px;
+        background: rgba(166, 188, 213);
+        padding: 30px;
+        font: 20px verdana;
+        color: rgb(0, 0, 0);
+        text-align: justify;
+    }
+
+    .ani {
+        width: 200px;
+        height: 10px;
+        background-color: rgb(73, 237, 252);
+        position: relative;
+        animation-name: example;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes example {
+        0% {
+            background-color: rgb(73, 237, 252);
+            left: 0px;
+        }
+
+        25% {
+            background-color: rgb(80, 255, 197);
+            left: 422px;
+        }
+
+        50% {
+            background-color: rgb(242, 255, 66);
+            left: 895px;
+        }
+
+        75% {
+            background-color: rgb(197, 255, 80);
+            left: 1327px;
+        }
+
+        100% {
+            background-color: rgb(62, 255, 149);
+            left: 1700px;
+        }
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+
+<body bgcolor="#A9A9A9" style="text-align:left;">
+    <center><img src="Titulo.png">
+        <br>
+        <br>
+        <br>
+        <table>
+            <tr>
+                <th> <a href="Tudosobre.html">
+                        <div class="tooltip"> <img src="Tudo_sobre.jpg">
+                    </a>
+                    <span class="tooltiptext"> •Economia circular;<br>
+                        •Impactos ambientais;<br>
+                        •Consumo consciente;<br>
+                        •Hiperconsumo.<br>
+                        •Obsolesência Programada.
+                    </span>
+                    </div>
+                </th>
+                <th> <a href="Imagens.html"><img src="img.jpg"> </a></th>
+                <th> <a href="Videos.html"><img src="videos.jpg"></a></th>
+                <th> <a href="Bibliografia.html"><img src="bilio.jpg"> </a></th>
+            </tr>
+        </table>
+    </center>
+    <br>
+    <br>
+    <div class="ani"></div>
+    <br>
+
+    <img src="Resumo.png" width="200">
+    <h1>
+        <p><b>
+                A sociedade de consumo é a era contemporânea do capitalismo, onde o crescimento econômico depende do
+                consumo.
+                Ela é caracterizada por um desequilíbrio entre oferta e demanda, com a oferta sendo muito maior que a
+                demanda.
+                Esse modelo é um reflexo da Revolução Industrial, quando os sistemas produtivos se tornaram mais
+                eficientes,
+                permitindo uma produção em massa. Nos tempos modernos, esse fenômeno se intensificou com o crescimento
+                do
+                marketing, publicidade e o desenvolvimento de novos meios de comunicação de massa, como a televisão e,
+                mais
+                recentemente, a internet.<br><br>
+                Em contra partida o consumo sustentável é um movimento que estimula a conscientização sobre os impactos do consumo no
+                planeta e no
+                bem-estar das pessoas. É também conhecido como "consumo responsável". Consiste em comprar apenas o que é
+                necessário, estender a vida útil dos produtos e priorizar produtos que utilizam menos recursos naturais.
+                A ideia
+                central do consumo sustentável é consumir o suficiente para atender às necessidades humanas sem
+                comprometer a
+                capacidade das gerações futuras de satisfazerem suas próprias necessidades.
+        </b>
+        </p>
+    </h1>
+    <br>
+    <div class="ani"></div>
+</body>
